@@ -1,0 +1,30 @@
+{
+  "name": "tunda-fresh",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:armstrongsouljah/tunda-fresh.git",
+  "author": "Armstrong <armstrongsouljah@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "babel-eslint": "^10.0.3",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.4"
+  }
+}
