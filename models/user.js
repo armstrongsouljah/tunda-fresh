@@ -6,6 +6,7 @@ class User extends Sequelize.Model {}
 User.init({
   email: {
     type: Sequelize.STRING,
+    unique: true,
     validate: {
       isEmail: true,
       max: 569,
